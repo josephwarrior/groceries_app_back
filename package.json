@@ -1,0 +1,28 @@
+{
+  "name": "groceries_app_back",
+  "version": "0.1.0",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "uuid": "^8.0.0"
+  },
+  "scripts": {
+    "start": "node ./server.js",
+    "start-dev": "nodemon ./server.js"
+  },
+  "description": "NodeJS API for Groceries App items management",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.4",
+    "svg-inline-loader": "^0.8.2",
+    "webpack-cli": "^3.3.11"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
