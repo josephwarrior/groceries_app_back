@@ -1,4 +1,4 @@
-const { uuid } = require("uuidv4");
+const { v4: uuidv4 } = require("uuid");
 
 const users = {};
 
@@ -35,7 +35,7 @@ const authorizeSessionId = (sid, username) => {
 };
 
 const createSession = (username) => {
-  const id = uuid();
+  const id = uuidv4();
   users[id] = { id, username };
   return users[id];
 };
