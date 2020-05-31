@@ -2,7 +2,7 @@ const express = require("express");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
 const PORT =
-  process.env.NODE_ENV === "production" ? process.env.PORT || 80 : 4000;
+  process.env.NODE_ENV === "production" ? process.env.PORT || 80 : 5000;
 const { getItems, addItem, updateItems, deleteItem } = require("./itemsdb");
 const {
   validateUsernameSintax,
